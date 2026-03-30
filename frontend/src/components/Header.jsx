@@ -41,7 +41,7 @@ const Header = ({ language, setLanguage, translations }) => {
             </div>
             <div>
               <h1 className={`font-bold text-lg md:text-xl ${isScrolled ? 'text-gray-900' : 'text-white'}`}>
-                {candidateInfo.name}
+                {candidateInfo.nameEnglish}
               </h1>
               <p className={`text-xs md:text-sm ${isScrolled ? 'text-orange-600' : 'text-orange-200'} font-semibold`}>
                 BJP 2026

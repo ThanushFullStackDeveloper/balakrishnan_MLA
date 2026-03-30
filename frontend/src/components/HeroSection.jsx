@@ -107,7 +107,7 @@ const HeroSection = ({ language, translations }) => {
                 
                 {/* Badge on Image */}
                 <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm rounded-2xl p-4 shadow-xl">
-                  <h3 className="font-bold text-gray-900 text-lg">{candidateInfo.name}</h3>
+                  <h3 className="font-bold text-gray-900 text-lg">{candidateInfo.nameEnglish}</h3>
                   <p className="text-orange-600 font-semibold text-sm">{candidateInfo.role}</p>
                   <p className="text-gray-600 text-sm">{candidateInfo.constituency}</p>
                 </div>

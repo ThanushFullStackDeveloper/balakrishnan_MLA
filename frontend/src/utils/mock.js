@@ -1,21 +1,22 @@
 // Mock data for BJP MLA Campaign Landing Page - Balakrishnan 2026
 
 export const candidateInfo = {
-  name: "Balakrishnan",
+  name: "பண்ணை பாலகிருஷ்ணன்",
+  nameEnglish: "Pannai Balakrishnan",
   position: "BJP Candidate",
   role: "Tirunelveli South Vice President",
   constituency: "Radhapuram Taluk",
   region: "Tamil Nadu",
-  whatsappNumber: "919876543210", // Replace with actual number
-  campaignEmail: "support@balakrishnan2026.com",
-  campaignPhone: "+91 98765 43210",
-  campaignAddress: "BJP Campaign Office, Radhapuram Taluk, Tirunelveli District",
+  whatsappNumber: "918807652858", // Updated number
+  campaignEmail: "jeyalakshmibjp@gmail.com",
+  campaignPhone: "+91 88076 52858",
+  campaignAddress: "BJP Campaign Office, Anuvijay Township, Radhapuram Taluk, Tirunelveli District",
   spreadsheetId: "YOUR_GOOGLE_SHEET_ID" // Will be configured later
 };
 
 export const images = {
   candidate: {
-    hero: "https://customer-assets.emergentagent.com/job_40b4c4a4-83ed-4b59-b95e-9993404a104b/artifacts/wqd9bisy_ChatGPT%20Image%20Mar%2030%2C%202026%2C%2012_22_33%20PM.png",
+    hero: "https://customer-assets.emergentagent.com/job_tirunelveli-change/artifacts/ez66n5zs_pro1.png",
     gallery1: "https://customer-assets.emergentagent.com/job_tirunelveli-change/artifacts/47wpahyt_28.jpg",
     gallery2: "https://customer-assets.emergentagent.com/job_tirunelveli-change/artifacts/sn3y19iu_27.jpg",
     gallery3: "https://customer-assets.emergentagent.com/job_tirunelveli-change/artifacts/u8slwx50_26.jpg",
@@ -243,13 +244,13 @@ This is our time. This is our moment. Let's build a Radhapuram that makes every 
     // Candidate Introduction
     introduction: {
       headline: "உங்கள் உள்ளூர் தலைவர்",
-      content: `வணக்கம்! நான் பாலகிருஷ்ணன். நம் அழகான ராதாபுரம் தாலுகாவில் பிறந்து வளர்ந்தவன். கடந்த 10 ஆண்டுகளாக, திருநெல்வேலி தெற்கு துணைத் தலைவராக நம் சமூகத்துடன் நெருக்கமாக பணியாற்றி வருகிறேன்.
+      content: `வணக்கம்! நான் பண்ணை பாலகிருஷ்ணன். நம் அழகான ராதாபுரம் தாலுகாவில் பிறந்து வளர்ந்தவன். கடந்த 10 ஆண்டுகளாக, திருநெல்வேலி தெற்கு துணைத் தலைவராக நம் சமூகத்துடன் நெருக்கமாக பணியாற்றி வருகிறேன்.
 
-நம் சிரமங்களை நான் பார்த்திருக்கிறேன் — கோடையில் தண்ணீர் பற்றாக்குறை, மழைக்காலத்தில் மோசமான சாலைகள், வேலைக்காக பிற மாநிலங்களுக்கு செல்லும் இளைஞர்கள். ஆனால் நம் பலங்களையும் பார்த்திருக்கிறேன் — கடின உழைப்பாளி விவசாயிகள், திறமையான இளைஞர்கள், உறுதியான குடும்பங்கள்.
+சத்தமின்றி ஒரு சாதனை! தன் தொகுதிக்காக ஒரு எம்எல்ஏ, எம்பியால் செய்ய முடியாத விஷயத்தை, தன் பகுதி மக்களுக்காக, ஒரு சாதாரண நபர் சாதித்து காட்டி இருக்கிறார். கர்மவீரரால் வெட்டப்பட்ட கால்வாய், காலப்போக்கில் பல ஆண்டுகளாக அடையாளமின்றி போனது. இந்த கால்வாயை தன் சொந்த செலவில் தூர்வாரி, பழுதுபார்த்து, பல கிலோமீட்டர் நீளத்திற்கு புதுப்பித்துக் கொண்டு வந்திருக்கிறேன்.
 
-நம் சவால்களை வாய்ப்புகளாக மாற்ற வேண்டிய நேரம் வந்துவிட்டது. BJP-யின் நிரூபிக்கப்பட்ட வளர்ச்சி மாதிரி மற்றும் எனது உள்ளூர் அனுபவத்துடன், நம் குழந்தைகள் தகுதியான ராதாபுரத்தை நாம் உருவாக்கலாம்.`,
+கொரோனா காலத்தில் ஆற்றிய மக்கள் பணியும் அளப்பரியது. இதுபோன்ற சாதனையாளர்கள் பாரத பிரதமரால் கௌரவிக்கப்பட வேண்டும். நம் சவால்களை வாய்ப்புகளாக மாற்ற வேண்டிய நேரம் வந்துவிட்டது.`,
       trust1: "10+ ஆண்டுகள் சமூக சேவை",
-      trust2: "உள்ளூர் குடும்ப மனிதர்",
+      trust2: "கால்வாய் புதுப்பிப்பு சாதனையாளர்",
       trust3: "BJP துணைத் தலைவர் அனுபவம்"
     },
     // Vision Section

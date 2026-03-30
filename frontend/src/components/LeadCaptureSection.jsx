@@ -21,6 +21,13 @@ const LeadCaptureSection = ({ language, translations }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    
+    // Validate concern is selected
+    if (!formData.concern) {
+      alert(language === 'en' ? 'Please select your primary concern' : 'தயவுசெய்து உங்கள் முக்கிய கவலையைத் தேர்ந்தெடுக்கவும்');
+      return;
+    }
+    
     setIsSubmitting(true);
 
     try {
