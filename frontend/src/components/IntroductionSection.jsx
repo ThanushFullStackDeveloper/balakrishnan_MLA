@@ -21,7 +21,7 @@ const IntroductionSection = ({ language, translations }) => {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src={images.candidate.gallery1}
+                src={images.candidate.gallery5}
                 alt="Balakrishnan with community"
                 className="w-full h-auto object-cover"
               />

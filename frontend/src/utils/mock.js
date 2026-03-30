@@ -16,10 +16,11 @@ export const candidateInfo = {
 export const images = {
   candidate: {
     hero: "https://customer-assets.emergentagent.com/job_40b4c4a4-83ed-4b59-b95e-9993404a104b/artifacts/wqd9bisy_ChatGPT%20Image%20Mar%2030%2C%202026%2C%2012_22_33%20PM.png",
-    gallery1: "https://customer-assets.emergentagent.com/job_40b4c4a4-83ed-4b59-b95e-9993404a104b/artifacts/2jsb8979_gallery.jpg",
-    gallery2: "https://customer-assets.emergentagent.com/job_40b4c4a4-83ed-4b59-b95e-9993404a104b/artifacts/emlleoir_gallery1.jpg",
-    gallery3: "https://customer-assets.emergentagent.com/job_40b4c4a4-83ed-4b59-b95e-9993404a104b/artifacts/hzi6ndhm_gallery3.jpg",
-    gallery4: "https://customer-assets.emergentagent.com/job_40b4c4a4-83ed-4b59-b95e-9993404a104b/artifacts/ix62p78w_gallery4.jpg"
+    gallery1: "https://customer-assets.emergentagent.com/job_tirunelveli-change/artifacts/47wpahyt_28.jpg",
+    gallery2: "https://customer-assets.emergentagent.com/job_tirunelveli-change/artifacts/sn3y19iu_27.jpg",
+    gallery3: "https://customer-assets.emergentagent.com/job_tirunelveli-change/artifacts/u8slwx50_26.jpg",
+    gallery4: "https://customer-assets.emergentagent.com/job_tirunelveli-change/artifacts/8jb0jr1a_25.jpg",
+    gallery5: "https://customer-assets.emergentagent.com/job_tirunelveli-change/artifacts/x9rfi518_24.jpg"
   },
   thematic: {
     heroBackground: "https://images.unsplash.com/photo-1763816589196-45607083c4f9",

@@ -21,6 +21,26 @@ html {
     background: linear-gradient(180deg, #ea580c, #15803d);
 }
 
+/* Hide Emergent Badge - More Specific */
+a[href*="emergentagent.com"],
+a[href*="emergent"],
+div[id*="emergent"],
+div[class*="emergent"],
+button[class*="emergent"],
+[class*="Made"],
+[class*="Emergent"] {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+}
+
+/* Hide badge by position (bottom-right corner) */
+body > a:last-of-type,
+body > div:last-of-type > a {
+    display: none !important;
+}
+
 /* Animations */
 @keyframes slide-in-from-bottom-4 {
     from {

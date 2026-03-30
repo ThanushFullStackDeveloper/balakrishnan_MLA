@@ -113,3 +113,18 @@ code {
         border-bottom-color: inherit;
     }
 }
+
+
+/* CRITICAL: Hide Emergent Badge */
+a[href*="emergent"],
+a[href*="emergentagent"] {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
+/* Hide fixed positioned badges at bottom-right */
+body > *[style*="position: fixed"][style*="bottom"][style*="right"],
+#root ~ * {
+    display: none !important;
+}

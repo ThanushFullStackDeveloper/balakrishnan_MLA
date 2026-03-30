@@ -51,14 +51,14 @@ const AchievementsSection = ({ language, translations }) => {
             <div className="space-y-4">
               <div className="rounded-2xl overflow-hidden shadow-lg transform hover:scale-105 transition-transform">
                 <img
-                  src={images.candidate.gallery2}
+                  src={images.candidate.gallery1}
                   alt="Community work"
                   className="w-full h-48 object-cover"
                 />
               </div>
               <div className="rounded-2xl overflow-hidden shadow-lg transform hover:scale-105 transition-transform">
                 <img
-                  src={images.candidate.gallery3}
+                  src={images.candidate.gallery2}
                   alt="Campaign rally"
                   className="w-full h-64 object-cover"
                 />
@@ -67,14 +67,14 @@ const AchievementsSection = ({ language, translations }) => {
             <div className="space-y-4 pt-8">
               <div className="rounded-2xl overflow-hidden shadow-lg transform hover:scale-105 transition-transform">
                 <img
-                  src={images.candidate.gallery4}
+                  src={images.candidate.gallery3}
                   alt="Community event"
                   className="w-full h-64 object-cover"
                 />
               </div>
               <div className="rounded-2xl overflow-hidden shadow-lg transform hover:scale-105 transition-transform">
                 <img
-                  src={images.thematic.villageCommunity}
+                  src={images.candidate.gallery4}
                   alt="Village visit"
                   className="w-full h-48 object-cover"
                 />
