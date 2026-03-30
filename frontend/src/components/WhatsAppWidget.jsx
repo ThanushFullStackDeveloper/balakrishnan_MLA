@@ -1,15 +1,21 @@
 import React, { useState } from 'react';
 import { MessageCircle, X, CheckCircle } from 'lucide-react';
 import { Button } from './ui/button';
-import { candidateInfo, getWhatsAppMessage } from '../utils/mock';
 
 const WhatsAppWidget = ({ language, translations }) => {
   const [isOpen, setIsOpen] = useState(false);
   const t = translations[language];
+  
+  const whatsappNumber = "918807652858";
+  const whatsappMessage = language === 'ta' 
+    ? "வணக்கம்! நெல்லை பாலகிருஷ்ணன் அவர்களின் தலைமையில் ராதாபுரத்தை வளர்ச்சியின் உச்சத்திற்கு கொண்டு செல்ல நான் ஆதரவளிக்கிறேன். மாற்றம் வேண்டும், வளர்ச்சி வேண்டும்! 🔥🔶"
+    : "Hello! I support Nellai Balakrishnan to lead Radhapuram towards development and prosperity. Let's bring change! 🔥🔶";
 
   const handleWhatsAppClick = () => {
-    const message = getWhatsAppMessage(language);
-    window.open(`https://wa.me/${candidateInfo.whatsappNumber}?text=${message}`, '_blank');
+    const message = encodeURIComponent(whatsappMessage);
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
+    console.log("Opening WhatsApp:", whatsappUrl);
+    window.open(whatsappUrl, '_blank');
     setIsOpen(false);
   };
 
@@ -65,6 +71,7 @@ const WhatsAppWidget = ({ language, translations }) => {
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white rounded-full shadow-2xl hover:shadow-green-500/50 transition-all transform hover:scale-110 flex items-center justify-center group"
+          aria-label="WhatsApp Contact"
         >
           {isOpen ? (
             <X size={28} className="group-hover:rotate-90 transition-transform" />
@@ -75,7 +82,7 @@ const WhatsAppWidget = ({ language, translations }) => {
 
         {/* Pulse Animation */}
         {!isOpen && (
-          <div className="absolute inset-0 w-16 h-16 bg-green-500 rounded-full animate-ping opacity-20" />
+          <div className="absolute inset-0 w-16 h-16 bg-green-500 rounded-full animate-ping opacity-20 pointer-events-none" />
         )}
       </div>
     </>

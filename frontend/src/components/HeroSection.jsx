@@ -1,14 +1,18 @@
 import React from 'react';
 import { ArrowRight, MessageCircle, Heart } from 'lucide-react';
 import { Button } from './ui/button';
-import { images, candidateInfo, getWhatsAppMessage } from '../utils/mock';
+import { images, candidateInfo } from '../utils/mock';
 
 const HeroSection = ({ language, translations }) => {
   const t = translations[language];
 
   const handleWhatsAppClick = () => {
-    const message = getWhatsAppMessage(language);
-    window.open(`https://wa.me/${candidateInfo.whatsappNumber}?text=${message}`, '_blank');
+    const whatsappNumber = "918807652858";
+    const whatsappMessage = language === 'ta' 
+      ? "வணக்கம்! நெல்லை பாலகிருஷ்ணன் அவர்களின் தலைமையில் ராதாபுரத்தை வளர்ச்சியின் உச்சத்திற்கு கொண்டு செல்ல நான் ஆதரவளிக்கிறேன். மாற்றம் வேண்டும், வளர்ச்சி வேண்டும்! 🔥🔶"
+      : "Hello! I support Nellai Balakrishnan to lead Radhapuram towards development and prosperity. Let's bring change! 🔥🔶";
+    const message = encodeURIComponent(whatsappMessage);
+    window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
   };
 
   const scrollToJoin = () => {
