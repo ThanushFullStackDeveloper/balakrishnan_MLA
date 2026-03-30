@@ -1,8 +1,8 @@
 // Mock data for BJP MLA Campaign Landing Page - Balakrishnan 2026
 
 export const candidateInfo = {
-  name: "பண்ணை பாலகிருஷ்ணன்",
-  nameEnglish: "Pannai Balakrishnan",
+  name: "நெல்லை பாலகிருஷ்ணன்",
+  nameEnglish: "Nellai Balakrishnan",
   position: "BJP Candidate",
   role: "Tirunelveli South Vice President",
   constituency: "Radhapuram Taluk",
@@ -244,7 +244,7 @@ This is our time. This is our moment. Let's build a Radhapuram that makes every 
     // Candidate Introduction
     introduction: {
       headline: "உங்கள் உள்ளூர் தலைவர்",
-      content: `வணக்கம்! நான் பண்ணை பாலகிருஷ்ணன். நம் அழகான ராதாபுரம் தாலுகாவில் பிறந்து வளர்ந்தவன். கடந்த 10 ஆண்டுகளாக, திருநெல்வேலி தெற்கு துணைத் தலைவராக நம் சமூகத்துடன் நெருக்கமாக பணியாற்றி வருகிறேன்.
+      content: `வணக்கம்! நான் நெல்லை பாலகிருஷ்ணன். நம் அழகான ராதாபுரம் தாலுகாவில் பிறந்து வளர்ந்தவன். கடந்த 10 ஆண்டுகளாக, திருநெல்வேலி தெற்கு துணைத் தலைவராக நம் சமூகத்துடன் நெருக்கமாக பணியாற்றி வருகிறேன்.
 
 சத்தமின்றி ஒரு சாதனை! தன் தொகுதிக்காக ஒரு எம்எல்ஏ, எம்பியால் செய்ய முடியாத விஷயத்தை, தன் பகுதி மக்களுக்காக, ஒரு சாதாரண நபர் சாதித்து காட்டி இருக்கிறார். கர்மவீரரால் வெட்டப்பட்ட கால்வாய், காலப்போக்கில் பல ஆண்டுகளாக அடையாளமின்றி போனது. இந்த கால்வாயை தன் சொந்த செலவில் தூர்வாரி, பழுதுபார்த்து, பல கிலோமீட்டர் நீளத்திற்கு புதுப்பித்துக் கொண்டு வந்திருக்கிறேன்.
 
@@ -427,10 +427,10 @@ export const submitLeadForm = async (formData) => {
 // WhatsApp message template
 export const getWhatsAppMessage = (language = 'en') => {
   const messages = {
-    en: `Hello, I want to support Balakrishnan for Radhapuram election.
+    en: `Hello, I want to support Nellai Balakrishnan for Radhapuram election.
 Name: 
 Area: `,
-    ta: `வணக்கம், ராதாபுரம் தேர்தலுக்கு பாலகிருஷ்ணனை ஆதரிக்க விரும்புகிறேன்.
+    ta: `வணக்கம், ராதாபுரம் தேர்தலுக்கு நெல்லை பாலகிருஷ்ணனை ஆதரிக்க விரும்புகிறேன்.
 பெயர்: 
 பகுதி: `
   };
