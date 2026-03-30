@@ -138,22 +138,22 @@ const LeadCaptureSection = ({ language, translations }) => {
                 <Label htmlFor="concern" className="text-gray-900 font-semibold mb-2 block">
                   {t.leadCapture.formFields.concern} *
                 </Label>
-                <Select
+                <select
+                  id="concern"
                   value={formData.concern}
-                  onValueChange={(value) => setFormData({ ...formData, concern: value })}
+                  onChange={(e) => setFormData({ ...formData, concern: e.target.value })}
                   required
+                  className="w-full h-12 text-base border-2 border-gray-200 focus:border-orange-500 rounded-xl px-4 bg-white focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
                 >
-                  <SelectTrigger className="h-12 text-base border-2 border-gray-200 focus:border-orange-500 rounded-xl">
-                    <SelectValue placeholder={language === 'en' ? 'Select your primary concern' : 'உங்கள் முதன்மை கவலையைத் தேர்ந்தெடுக்கவும்'} />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {t.leadCapture.concerns.map((concern, index) => (
-                      <SelectItem key={index} value={concern}>
-                        {concern}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
+                  <option value="" disabled>
+                    {language === 'en' ? 'Select your primary concern' : 'உங்கள் முக்கிய பிரச்சனையைத் தேர்ந்தெடுக்கவும்'}
+                  </option>
+                  {t.leadCapture.concerns.map((concern, index) => (
+                    <option key={index} value={concern}>
+                      {concern}
+                    </option>
+                  ))}
+                </select>
               </div>
 
               {/* Volunteer Checkbox */}
